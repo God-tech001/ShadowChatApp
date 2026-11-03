@@ -1,86 +1,246 @@
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ShadowChat - Download</title>
+<title>ShadowChat - Your Identity, Your Voice</title>
 
 <style>
-* {
-  box-sizing: border-box;
+*{box-sizing:border-box}
+
+body{
+margin:0;
+background:#0b1020;
+color:white;
+font-family:Arial,sans-serif;
+text-align:center;
 }
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b1020;
-  color: white;
-  text-align: center;
-  padding: 30px 18px;
+
+.container{
+max-width:480px;
+margin:auto;
+padding:25px 18px;
 }
-.container {
-  max-width: 450px;
-  margin: 60px auto;
-  background: #171f35;
-  padding: 35px 22px;
-  border-radius: 25px;
+
+.logo{
+width:100px;
+height:100px;
+border-radius:25px;
+object-fit:cover;
 }
-.logo {
-  width: 100px;
-  height: 100px;
-  border-radius: 25px;
+
+h1{font-size:34px;margin-bottom:5px}
+h2{font-size:24px}
+
+p{
+color:#b9c4d8;
+line-height:1.6;
 }
-h1 {
-  font-size: 32px;
-  margin-bottom: 8px;
+
+.small{
+font-size:12px;
+color:#8391a9;
 }
-p {
-  color: #b9c4d8;
-  line-height: 1.6;
+
+.ad{
+width:320px;
+height:50px;
+max-width:100%;
+margin:22px auto;
+overflow:hidden;
 }
-.features {
-  text-align: left;
-  margin: 25px 10px;
-  line-height: 2.3;
+
+.features{
+background:#17223a;
+padding:20px;
+border-radius:18px;
+text-align:left;
+line-height:2.5;
+margin:25px 0;
 }
-.download {
-  display: block;
-  background: #16c79a;
-  color: #071b18;
-  padding: 17px;
-  border-radius: 14px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
+
+.box{
+background:#17223a;
+padding:25px 18px;
+border-radius:20px;
+margin:25px 0;
 }
-.version {
-  font-size: 12px;
-  margin-top: 20px;
+
+.btn{
+display:block;
+background:#18d6a3;
+color:#071b18;
+padding:18px;
+border-radius:13px;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+margin:25px 0;
+cursor:pointer;
+border:0;
+width:100%;
 }
+
+.back{
+display:block;
+color:#b9c4d8;
+text-decoration:none;
+margin:25px 0;
+cursor:pointer;
+}
+
+.download-icon{
+font-size:75px;
+margin:20px 0;
+}
+
+.page{display:none}
+.page.active{display:block}
 </style>
 </head>
 
 <body>
+
+<!-- PAGE 1: HOME -->
+<div id="homePage" class="page active">
+
 <div class="container">
 
-<img src="logo.png" class="logo">
+<img src="logo.png" class="logo" alt="ShadowChat Logo">
 
 <h1>ShadowChat</h1>
 <p>Your identity, your voice.</p>
 
-<div class="features">
-  ✓ Private Conversations<br>
-  ✓ Group Chats<br>
-  ✓ Anonymous Community<br>
-  ✓ Simple & Friendly Interface
+<p class="small">PRIVATE • FRIENDLY • CONNECTED</p>
+
+<!-- AD 1 -->
+<div class="ad">
+<script>
+atOptions={
+'key':'8f54c1b6797e8ab63b9c5ab34cdf863c',
+'format':'iframe',
+'height':50,
+'width':320,
+'params':{}
+};
+</script>
+<script src="https://www.highrevenueformat.com/8f54c1b6797e8ab63b9c5ab34cdf863c/invoke.js"></script>
 </div>
 
-<a class="download" href="ShadowChat.apk" download>
-  ⬇ Download APK
+<h2>Connect Without Limits</h2>
+
+<p>Share your thoughts, chat with friends and join communities.</p>
+
+<div class="features">
+✓ Private Conversations<br>
+✓ Group Chats<br>
+✓ Anonymous Community<br>
+✓ Friendly Interface<br>
+✓ Simple Experience
+</div>
+
+<!-- AD 2 -->
+<div class="ad">
+<script>
+atOptions={
+'key':'8f54c1b6797e8ab63b9c5ab34cdf863c',
+'format':'iframe',
+'height':50,
+'width':320,
+'params':{}
+};
+</script>
+<script src="https://www.highrevenueformat.com/8f54c1b6797e8ab63b9c5ab34cdf863c/invoke.js"></script>
+</div>
+
+<button class="btn" onclick="showPage('downloadPage')">
+GET APP →
+</button>
+
+<p class="small">Welcome to ShadowChat</p>
+
+</div>
+</div>
+
+
+<!-- PAGE 2: DOWNLOAD -->
+<div id="downloadPage" class="page">
+
+<div class="container">
+
+<img src="logo.png" class="logo" alt="ShadowChat Logo">
+
+<h1>Get ShadowChat</h1>
+<p>Your identity, your voice.</p>
+
+<!-- AD 3 -->
+<div class="ad">
+<script>
+atOptions={
+'key':'8f54c1b6797e8ab63b9c5ab34cdf863c',
+'format':'iframe',
+'height':50,
+'width':320,
+'params':{}
+};
+</script>
+<script src="https://www.highrevenueformat.com/8f54c1b6797e8ab63b9c5ab34cdf863c/invoke.js"></script>
+</div>
+
+<div class="box">
+
+<div class="download-icon">📥</div>
+
+<h2>Download ShadowChat</h2>
+
+<p>Get the Android app and enjoy chatting with your community.</p>
+
+<p class="small">Android • APK • Version 1.0</p>
+
+<a class="btn" href="APK_RELEASE_LINK">
+⬇ DOWNLOAD APK
 </a>
 
-<p class="version">Version 1.0 | Android App</p>
+</div>
+
+<!-- AD 4 -->
+<div class="ad">
+<script>
+atOptions={
+'key':'8f54c1b6797e8ab63b9c5ab34cdf863c',
+'format':'iframe',
+'height':50,
+'width':320,
+'params':{}
+};
+</script>
+<script src="https://www.highrevenueformat.com/8f54c1b6797e8ab63b9c5ab34cdf863c/invoke.js"></script>
+</div>
+
+<button class="back" onclick="showPage('homePage')">
+← Back to Home
+</button>
+
+<p class="small">Official ShadowChat Download Page</p>
 
 </div>
+</div>
+
+
+<script>
+function showPage(pageId){
+
+document.querySelectorAll('.page').forEach(function(page){
+page.classList.remove('active');
+});
+
+document.getElementById(pageId).classList.add('active');
+
+window.scrollTo(0,0);
+
+}
+</script>
+
 </body>
 </html>
